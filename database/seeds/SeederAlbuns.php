@@ -12,10 +12,10 @@ class SeederAlbuns extends Seeder
     public function run()
     {
         DB::table('albuns')->insert([
-            'nome' => 'Lulu Teteita',
+            'nome' => 'Resolutions',
             'lancamento' => '2020-08-26',
-            'artista' => 'Vera Magalhaes',
-            'faixas' => 'Bilu bili, Eu Jovem',
+            'artista' => 'Andy Timonns',
+            'faixas' => 'Play, Cry for you',
         ]);
     }
 }

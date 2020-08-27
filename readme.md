@@ -31,12 +31,10 @@ $ code .env
 
 - Run artisan commands.
 
-$ php artisan migrate --seed && php artisan db:seed
+$ php artisan migrate && php artisan db:seed
 
 
 ## Server start
-
-- Open new terminal
 
 $ php artisan serve
 
