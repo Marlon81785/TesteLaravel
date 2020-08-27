@@ -23,8 +23,16 @@
                     >Cadastrar Musicas</button>
 
                     <button class="btn btn-block btn-primary"
+                    onclick="cadastrarAlbum()"
+                    >Cadastrar Album</button>
+
+                    <button class="btn btn-block btn-primary"
                     onclick="listMusics()"
                     >Listar Musicas</button>
+
+                    <button class="btn btn-block btn-primary"
+                    onclick="listAlbums()"
+                    >Listar Albums</button>
                     
                 
                 </div>
@@ -33,6 +41,14 @@
     </div>
 </div>
 <script>
+
+    function cadastrarAlbum(){
+        window.location = "http://localhost:8000/createAlbum";
+    }
+
+    function listAlbums(){
+        window.location = "http://localhost:8000/listAlbum";
+    }
     function cadastrarMusicas(){
         window.location = "http://localhost:8000/create";
         

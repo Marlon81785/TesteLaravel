@@ -27,7 +27,7 @@
 
                     <hr>
 
-                    <button onclick="createAlbum()" class="btn btn-block btn-primary">Create Album</button>  
+                    <button onclick="createFaixa()" class="btn btn-block btn-primary">Cadastrar Musica</button>  
                     <button onclick="voltarAlbum()" class="btn btn-block btn-primary">Voltar</button>          
 
                 </div>
@@ -60,7 +60,7 @@
         window.location = "http://localhost:8000/create";
     }
 
-    function createAlbum(){
+    function createFaixa(){
         const nome = document.getElementById('nome').value
         const duracao = document.getElementById('duracao').value
         const Albun = document.getElementById('Albun').value

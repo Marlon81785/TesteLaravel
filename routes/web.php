@@ -20,4 +20,6 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/create', 'HomeController@create')->name('create');
 Route::get('/listFaixa', 'HomeController@listFaixa')->name('listFaixa');
+Route::get('/listAlbum', 'HomeController@listAlbum')->name('listAlbum');
+Route::get('/createAlbum', 'HomeController@createAlbum')->name('createAlbum');
 

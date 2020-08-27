@@ -35,5 +35,14 @@ class HomeController extends Controller
     {
         return view('listFaixa');
     }
+
+    public function listAlbum()
+    {
+        return view('listAlbum');
+    }
+
+    public function createAlbum(){
+        return view('createAlbum');
+    }
     
 }
