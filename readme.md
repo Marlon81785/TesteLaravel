@@ -1,6 +1,6 @@
 ## Installation
 
-- Clone repository
+- Clone repository -
 $ git clone https://github.com/Marlon81785/TesteLaravel.git
 
 - Access directory
